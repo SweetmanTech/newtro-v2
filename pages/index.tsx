@@ -1,15 +1,15 @@
 import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Header from "../components/Header";
+import Header from "@/components/Header";
 import Marquee from "react-fast-marquee";
-import AboutHome from "../components/AboutHome";
-import MediaHero from "../components/MediaHero";
-import Community from "../components/Community";
+import AboutHome from "@/components/AboutHome";
+import MediaHero from "@/components/MediaHero";
+import Community from "@/components/Community";
 import Link from "next/link";
-import FeaturedMints from "../components/FeaturedMints";
-import Sponsors from "../components/Sponsors";
-import Membership from "../components/Membership";
+import FeaturedMints from "@/components/FeaturedMints";
+import Sponsors from "@/components/Sponsors";
+import Membership from "@/components/Membership";
 
 const Home: NextPage = () => (
   <div className="bg-primary-dark text-fourth-green max-w-full pt-14 lg:overflow-hidden cursor-default ">
